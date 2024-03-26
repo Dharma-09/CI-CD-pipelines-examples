@@ -1,4 +1,4 @@
-# CICD-Corporate-Devops-pipline
+# CICD-Corporate-Devops-pipeline
 
 ![Screenshot from 2024-03-23 15-54-01](https://github.com/Dharma-09/CICD-Corporate-Devops-pipline/assets/58421062/e57f2f92-9ad1-4276-80c8-7bd6b754c01d)
 
