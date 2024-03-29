@@ -9,3 +9,6 @@
 |	Containers |	Docker	
 |	Containers orchestration |Kubernetes	
 |	Monitoring | Prometheus and Grafana	| Datadog
+
+
+Include 4 phase each phase has there impoertance
