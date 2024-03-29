@@ -12,3 +12,6 @@
 
 
 Include 4 phase each phase has there impoertance
+sonarqube
+Nexus
+Docker
