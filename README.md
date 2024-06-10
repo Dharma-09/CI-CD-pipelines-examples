@@ -1,20 +1,28 @@
 # User
-CI/CD Pipeline with Kubernetes Integration
+Creating a single repository that includes examples for various CI/CD pipelines using different tools can be highly beneficial for learning and reference purposes.
 
 
-![Screenshot from 2024-03-23 15-54-01](https://github.com/Dharma-09/CICD-Corporate-Devops-pipline/assets/58421062/e57f2f92-9ad1-4276-80c8-7bd6b754c01d)
+# CI/CD Pipelines Examples
 
-| Concepts | Tools |
-| --- | --- |
-| CI/CD |	GitHub Actions	| Jenkins, GitLab, CircleCI
-|	IaC	| Terraform, Azure Bicep, AWS CloudFormation, Pulumi
-|	Containers |	Docker	
-|	Containers orchestration |Kubernetes	
-|	Monitoring | Prometheus and Grafana	| Datadog
+This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools.
 
+## Structure
 
-Include 4 phase each phase has there impoertance
-sonarqube
-Nexus
-Docker
-Jenkins
+- **Jenkins**: Contains examples of Jenkins Pipelines (Declarative and Scripted).
+- **GitHub Actions**: Contains examples of GitHub Actions workflows.
+- **GitLab CI/CD**: Contains examples of GitLab CI/CD pipelines.
+- **CircleCI**: Contains examples of CircleCI configurations.
+- **TravisCI**: Contains examples of TravisCI configurations.
+- **Azure Pipelines**: Contains examples of Azure Pipelines YAML configurations.
+- **Bitbucket Pipelines**: Contains examples of Bitbucket Pipelines configurations.
+- **Bamboo**: Contains examples of Bamboo Specs configurations.
+- **TeamCity**: Contains examples of TeamCity build configurations.
+- **AWS CodePipeline**: Contains examples of AWS CodePipeline configurations.
+
+## Contributing
+
+Feel free to contribute by adding new examples or improving existing ones. Please follow the structure and naming conventions used in this repository.
+
+## License
+
+This repository is licensed under the MIT License.
