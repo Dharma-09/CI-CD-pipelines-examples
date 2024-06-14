@@ -21,7 +21,7 @@ This repository contains examples of CI/CD pipelines using various tools and pla
 
 ## Contributing
 
-Feel free to contribute by adding new examples or improving existing ones. Please follow the structure and naming conventions used in this repository.
+Please feel free to add new examples or improve existing ones. Please follow the structure and naming conventions used in this repository.
 
 ## License
 
