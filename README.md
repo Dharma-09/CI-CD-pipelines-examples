@@ -8,7 +8,7 @@ This repository contains examples of CI/CD pipelines using various tools and pla
 
 ## Structure
 
-- **Jenkins**: Contains examples of Jenkins Pipelines (Declarative and Scripted).
+- **Jenkins**: Contains examples of Jenkins Pipelines (Declarative and Scripted)
 - **GitHub Actions**: Contains examples of GitHub Actions workflows.
 - **GitLab CI/CD**: Contains examples of GitLab CI/CD pipelines.
 - **CircleCI**: Contains examples of CircleCI configurations.
