@@ -1,10 +1,10 @@
 # User
-    Creating a single repository that includes examples for various CI/CD pipelines using different tools can be highly beneficial for learning and reference purposes.
+Creating a single repository that includes examples for various CI/CD pipelines using different tools can be highly beneficial for learning and reference purposes.
 
 
 # CI/CD Pipelines Examples
 
-    This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools.
+This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools.
 
 ## Structure
 
