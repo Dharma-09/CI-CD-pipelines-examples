@@ -1,23 +1,25 @@
 # User
-Creating a single repository that includes examples for various CI/CD pipelines using different tools can be highly beneficial for learning and reference purposes.
+    Creating a single repository that includes examples for various CI/CD pipelines using different tools can be highly beneficial for learning and reference purposes.
 
 
 # CI/CD Pipelines Examples
 
-This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools.
+    This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools.
 
 ## Structure
 
-- **Jenkins**: Contains examples of Jenkins Pipelines (Declarative and Scripted)
-- **GitHub Actions**: Contains examples of GitHub Actions workflows.
-- **GitLab CI/CD**: Contains examples of GitLab CI/CD pipelines.
-- **CircleCI**: Contains examples of CircleCI configurations.
-- **TravisCI**: Contains examples of TravisCI configurations.
-- **Azure Pipelines**: Contains examples of Azure Pipelines YAML configurations.
-- **Bitbucket Pipelines**: Contains examples of Bitbucket Pipelines configurations.
-- **Bamboo**: Contains examples of Bamboo Specs configurations.
-- **TeamCity**: Contains examples of TeamCity build configurations.
-- **AWS CodePipeline**: Contains examples of AWS CodePipeline configurations.
+| CI/CD Tool              | Example File Link                                                | Status |
+|-------------------------|------------------------------------------------------------------|--------|
+| **Jenkins**             | [Jenkins Pipeline Example](./Jenkins/README.md)                  | ✅     |
+| **GitHub Actions**      | [GitHub Actions Example](./GitHub_Actions/README.md)             | ❌     |
+| **GitLab CI/CD**        | [GitLab CI/CD Example](./GitLab_CI_CD/README.md)                 | ❌     |
+| **CircleCI**            | [CircleCI Example](./CircleCI/README.md)                         | ❌     |
+| **TravisCI**            | [TravisCI Example](./TravisCI/README.md)                         | ❌     |
+| **Azure Pipelines**     | [Azure Pipelines Example](./Azure_Pipelines/README.md)           | ❌     |
+| **Bitbucket Pipelines** | [Bitbucket Pipelines Example](./Bitbucket_Pipelines/README.md)   | ❌     |
+| **Bamboo**              | [Bamboo Example](./Bamboo/README.md)                             | ❌     |
+| **TeamCity**            | [TeamCity Example](./TeamCity/README.md)                         | ❌     |
+| **AWS CodePipeline**    | [AWS CodePipeline Example](./AWS_CodePipeline/README.md)         | ❌     |
 
 ## Contributing
 
