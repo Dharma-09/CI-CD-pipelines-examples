@@ -8,8 +8,8 @@
 
 ## Structure
 
-| CI/CD Tool              | Example File Link                                                | Status |
-|-------------------------|------------------------------------------------------------------|--------|
+| CI/CD Tool              | Example File Link                                                | Status | Cloud Provider |
+|-------------------------|------------------------------------------------------------------|--------|----------------|
 | **Jenkins**             | [Jenkins Pipeline Example](./Jenkins/README.md)                  | ✅     |
 | **GitHub Actions**      | [GitHub Actions Example](./GitHub_Actions/README.md)             | ❌     |
 | **GitLab CI/CD**        | [GitLab CI/CD Example](./GitLab_CI_CD/README.md)                 | ❌     |
