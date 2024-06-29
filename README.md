@@ -1,6 +1,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Dharma-09/CI-CD-pipelines-examples)](https://github.com/Dharma-09/CI-CD-pipelines-examples/stargazers)
 ![Last Commit](https://img.shields.io/github/last-commit/Dharma-09/CI-CD-pipelines-examples)
 ![Pull Requests](https://img.shields.io/github/issues-pr-raw/Dharma-09/CI-CD-pipelines-examples)
+[![License](https://img.shields.io/github/license/Dharma-09/CI-CD-pipelines-examples)](https://github.com/Dharma-09/CI-CD-pipelines-examples/blob/master/LICENSE)
 
 # User
 Creating a single repository that includes examples for various CI/CD pipelines using different tools can be highly beneficial for learning and reference purposes.
