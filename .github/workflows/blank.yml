@@ -54,19 +54,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Tag and push
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git tag -a v1.0.0 -m "Release v1.0.0"
-          git push origin v1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Update deployment manifests
         run: |
           # Example of updating deployment files if any
-          sed -i 's/image: old-image/image: new-image/' deployment.yaml
+          sed -i 's/version:.*/version: v1.0.0/' deployment.yaml
         shell: bash
 
       - name: Commit deployment manifests
@@ -74,17 +65,8 @@ jobs:
           git add deployment.yaml
           git commit -m "Update deployment manifests for version ${{ github.sha }}"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deployment approval
-        if: github.event_name == 'workflow_dispatch'
-        uses: juliangruber/approve-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-id: ${{ github.event.pull_request.number }}
 
       - name: Deploy application
         run: |
-          # Your deployment commands here, for example, scp or rsync files to a server
+          # Your deployment commands here, for example, copying files to a server
           echo "Deploying application to the server"
