@@ -60,12 +60,6 @@ jobs:
           sed -i 's/version:.*/version: v1.0.0/' deployment.yaml
         shell: bash
 
-      - name: Commit deployment manifests
-        run: |
-          git add deployment.yaml
-          git commit -m "Update deployment manifests for version ${{ github.sha }}"
-          git push
-
       - name: Deploy application
         run: |
           # Your deployment commands here, for example, copying files to a server
