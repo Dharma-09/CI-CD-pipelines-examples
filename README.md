@@ -12,10 +12,10 @@ This repository contains examples of CI/CD pipelines using various tools and pla
 
 ## Structure
 
-| CI/CD Tool              | Example File Link                                                | Status | Cloud Provider |
+| CI/CD Tool              | Example File Link                                                | Status | Cloud Provider/Tech |
 |-------------------------|------------------------------------------------------------------|--------|----------------|
 | **Jenkins**             | [Jenkins Pipeline Example](./Jenkins/README.md)                  | ✅     |      AWS       |
-| **GitHub Actions**      | [GitHub Actions Example](./GitHub_Actions/README.md)             | ❌     ||
+| **GitHub Actions**      | [GitHub Actions Example](./GitHub-Actions/README.md)             | ✅     |     Node.js    |
 | **GitLab CI/CD**        | [GitLab CI/CD Example](./GitLab_CI_CD/README.md)                 | ❌     ||
 | **CircleCI**            | [CircleCI Example](./CircleCI/README.md)                         | ❌     ||
 | **TravisCI**            | [TravisCI Example](./TravisCI/README.md)                         | ❌     ||
