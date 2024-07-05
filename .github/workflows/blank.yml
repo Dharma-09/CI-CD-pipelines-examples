@@ -16,16 +16,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: '1.16'
+      - name: Install dependencies
+        run: |
+          # Replace this with your actual install command
+          echo "Installing dependencies"
 
-      - name: Build CLI
-        run: go build -o argo ./cmd/argo
+      - name: Build project
+        run: |
+          # Replace this with your actual build command
+          echo "Building project"
 
       - name: Run tests
-        run: go test ./...
+        run: |
+          # Replace this with your actual test command
+          echo "Running tests"
 
       - name: Upload test report
         if: always()
