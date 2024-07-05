@@ -54,12 +54,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Update deployment manifests
-        run: |
-          # Example of updating deployment files if any
-          sed -i 's/version:.*/version: v1.0.0/' deployment.yaml
-        shell: bash
-
       - name: Deploy application
         run: |
           # Your deployment commands here, for example, copying files to a server
