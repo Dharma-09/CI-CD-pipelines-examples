@@ -208,7 +208,7 @@ https://github.com/HariSekhon/Terraform
 
 ### Git Merges & Backports
 
-Automatically merge one branch into another upon any change eg. backport between environment branches such as any hotfixes in Staging to Dev:
+Automatically merge one branch into another upon any change eg. backport between environment branches such as any hotfixes in Staging to Dev:## QuickStart
 
 ```groovy
 @Library('github.com/harisekhon/jenkins@master') _
