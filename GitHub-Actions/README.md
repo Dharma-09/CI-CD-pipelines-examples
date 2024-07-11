@@ -5,6 +5,7 @@ GitHub Actions is made by and for developers, so you don’t need dedicated reso
 ## QuickStart   
 
 ### Step 1: Create or choose a repository, and pick a project
+You can refere this link for create new repository [Creating and managing repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
 
 ### Step 2: Open GitHub Actions in your repository to start building your CI/CD workflow
 To begin building your CI/CD pipeline, open the GitHub Actions tab in your repository’s top navigation bar.
