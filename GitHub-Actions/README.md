@@ -9,7 +9,7 @@ You can refere this link for create new repository [Creating and managing reposi
 
 ### Step 2: Open GitHub Actions in your repository to start building your CI/CD workflow
 To begin building your CI/CD pipeline, open the GitHub Actions tab in your repository’s top navigation bar.
-
+![alt text](src/image.png)
 You should see a list of CI/CD and workflow automation templates that match the technology your project uses (side note: We just improved this entire user flow.[(Check out the details later, if you’re interested)](https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/).
 
 ![Choose a workflow from github actions page](src/choose-a-workflow.png)
@@ -32,3 +32,15 @@ This is your YAML workflow, but in visual form, and it makes it easier to see wh
 
 ## Here is my repository ci-cd pipeline
 ![Github action ci/cd pipeline](src/ci-cd.png)
+
+
+
+if you are done with all the things up to now, you can commit them, and push to your GitHub repository. The GitHub Actions automatically takes care of each step. Simply navigate to the ‘Actions’ tab within your repository to see the automated workflow in action. Furthermore hands-on experience of the pipeline’s automation, try making additional code changes, commit them, and push to the repository. Then your updates will seamlessly render on GitHub Pages without requiring any manual intervention.
+
+Update the package.json
+
+Add the homepage of the app to the package.json file
+
+"homepage": "https://{your github id }.github.io/{repo name}/",
+
+https://medium.com/@pathirage/step-in-to-ci-cd-a-hands-on-guide-to-building-ci-cd-pipeline-with-github-actions-7490d6f7d8ff
