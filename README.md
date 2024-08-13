@@ -8,7 +8,7 @@ Creating a single repository that includes examples for various CI/CD pipelines 
 
 
 # CI/CD Pipelines Examples
-This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools.
+This repository contains examples of CI/CD pipelines using various tools and platforms. Each directory contains example configurations and scripts for setting up pipelines with different CI/CD tools. Some of them are in the early stages.
 
 ## Structure
 
