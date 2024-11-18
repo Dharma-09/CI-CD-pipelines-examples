@@ -16,7 +16,7 @@ This repository contains examples of CI/CD pipelines using various tools and pla
 |-------------------------|------------------------------------------------------------------|--------|----------------|
 | **Jenkins**             | [Jenkins Pipeline Example](./Jenkins/README.md)                  | ✅     |      AWS       |
 | **GitHub Actions**      | [GitHub Actions Example](./GitHub-Actions/README.md)             | ✅     |     Node.js    |
-| **GitLab CI/CD**        | [GitLab CI/CD Example](./GitLab_CI_CD/README.md)                 | ❌     ||
+| **GitLab CI/CD**        | [GitLab CI/CD Example](./GitLab_CI_CD/README.md)                 | ✅     ||    Gihtub     |
 | **CircleCI**            | [CircleCI Example](./CircleCI/README.md)                         | ❌     ||
 | **TravisCI**            | [TravisCI Example](./TravisCI/README.md)                         | ❌     ||
 | **Azure Pipelines**     | [Azure Pipelines Example](./Azure_Pipelines/README.md)           | ❌     ||
